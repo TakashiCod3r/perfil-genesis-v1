@@ -1,0 +1,254 @@
+
+body{
+    margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.container{
+background-color:#060212;
+width: 100vw;
+height: 1200px;
+background-size: cover;
+background-repeat: repeat;
+
+}
+
+.container-perfil{
+    width: 900px;
+    height: 100vh;
+    margin-left: auto;
+margin-right: auto;
+align-items: center;
+text-align: center;
+align-content: center;
+/*border: 2px solid orange;*/
+}
+.perfil{
+width: 900px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+text-align: center;
+align-content: center;
+}
+
+.menu{
+    background-color: rgba(41, 39, 39, 0.575);
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    color: #fff;
+    margin: 0;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+text-align: center;
+align-content: center;
+padding: 10px;
+border-radius: 2px solid ;
+cursor: pointer;
+}
+.home{
+    margin-right: 35%;
+  
+}
+
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+
+}
+ul{
+    margin: 0;
+}
+
+.loguin{
+    margin-left: 10%;
+    border: 2px solid #ff0048;
+    border-radius: 15px;
+    margin-top: 2px;
+
+}
+.loguin li {
+   padding-left: 50px;
+}
+.loguin:hover{
+   background-color: #ff0099;
+   transition: all .5s;
+   border: 2px solid  #49007e;
+   border-radius:  15px;
+}
+
+
+
+.perfil-principal{
+    width: 60vw;
+    height: 30em;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+text-align: center;
+align-content: center;
+
+}
+.perfil-principal{
+    background-image: url(./imagens/capa1.jpg);
+    width: 900px;
+    height: 30em;
+   opacity: 0.9;
+
+}
+.perfil-principal img{
+    opacity: 1;
+}
+
+.foto-perfil{
+  
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.foto-perfil img{
+    width: 8.4em;
+    height: 8.4em;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    border: 4px solid #ff0099 ;
+    
+}
+
+.foto-perfil h2{
+    color: rgba(255, 255, 255, 0.945);
+    background-color: #443c41d3;
+    border-radius: 15px;
+    font-size: 2em;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.foto-perfil span{
+    color: rgba(253, 129, 222, 0.863);
+    background-color: #443c41d3;
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+@media screen {
+    
+}
+.sobre{
+    width: 900px;
+    background-color: #161127b0;
+    margin-top: 0;
+}
+
+
+.foto-sobre{
+    width: 200px;
+}
+
+
+.foto-sobre img{
+    width: 200px;
+    float: left;
+    margin-top: 10px ;
+}
+
+.discovery{
+width: 690px;
+margin-left: 210px;
+}
+
+.discovery h2{
+    color: rgba(224, 130, 7, 0.979);
+ text-align: left;
+    font-size: 1em;
+    margin-top: 0;
+    padding-top: 5px;
+    font-style: italic;
+
+}
+
+.discovery h3 {
+    display: flex;
+    color: #fff;
+    text-align: left;
+    font-size: 1.2;
+    border-bottom: 2px solid orange;
+    width: 100px;
+    padding: 2px;
+    margin: 2px;
+}
+
+ .discovery p  {
+    color: #fff;
+ text-align: left;
+   margin-right: 20px;
+   width: 680px;
+   opacity: 0.8;
+   margin-top: 0.5em ;
+  
+   
+}
+
+
+.status-perfil{
+   opacity: 0.5;
+    border: 2px solid #ecd079;
+    width: 680px;
+    display: flex;
+    margin-top: 0;
+    
+}
+
+.status-perfil p {
+    line-height: 1.5em;
+    padding-left: 10px;
+    margin-top: 0;
+}
+
+
+.button-sobre {
+
+    padding: 5px;
+}
+
+.button-sobre button{
+    background-color: #ff0048;
+    padding: 5px;
+    border-radius: 0 10px 0 0;
+    cursor: pointer;
+font-weight: 800;
+font-style: italic;
+box-shadow: 2px 3px 3px 0 #fff ;
+transition: all .5s;
+}
+
+.button-sobre button:hover{
+    background-color: blue;
+    transition: all .5s;
+    color: #fff;
+    box-shadow: 2px 3px 3px 0 red ;
+
+}
+
+.grafic-perfil{
+    width: 900px;
+}
